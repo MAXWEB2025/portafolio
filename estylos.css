@@ -159,7 +159,7 @@ header{
 .form__contac input::placeholder,
 .form__contac textarea::placeholder{
     font-size: 12px;
-    color:#020202;
+    
     font-weight: bolder;
 }
 .form__contac input,
@@ -167,11 +167,12 @@ header{
     padding: 5px;
     border-radius: 7.5px;
     border: 0;
-}
+    color: #010202;
+}/*
 .form__contac input:focus,
 .form__contac textarea:focus{
-background-color: black;
-}
+background-color: rgb(8, 26, 141);
+}*/
 .contac__buton{
     background: inherit;
     border: 1px solid white;

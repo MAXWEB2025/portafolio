@@ -113,18 +113,28 @@ document.getElementById("color_fondo").style.backgroundColor ="white";
 document.getElementById("volver_color").addEventListener("click",function(){
 document.getElementById("color_fondo").style.backgroundColor ="  rgb(151, 151, 151)";       
 });
-//* cambiar color verde verdadero (evento mouseover)
+ *///* cambiar color verde verdadero (evento mouseover)
+
 document.getElementById("cajatexto").addEventListener("mouseover",function(){
-    document.getElementById("cajatexto").style.backgroundColor ="  rgb(138, 246, 105)";   
-    document.getElementById("cajatexto1").style.backgroundColor ="  rgb(138, 246, 105)";   
+    document.getElementById("cajatexto").style.backgroundColor ="  rgb(138, 246, 105)";
+} );
 
-    });
+    document.getElementById("cajatexto1").addEventListener("mouseover",function(){ 
+    document.getElementById("cajatexto1").style.backgroundColor ="  rgb(138, 246, 105)"; 
+} ); 
+
+document.getElementById("cajatexto2").addEventListener("mouseover",function(){ 
+    document.getElementById("cajatexto2").style.backgroundColor ="  rgb(138, 246, 105)"; 
+} ); 
+document.getElementById("cajatexto3").addEventListener("mouseover",function(){ 
+    document.getElementById("cajatexto3").style.backgroundColor ="  rgb(138, 246, 105)"; 
+} );
 //*cambiar color rojo (evento mouseover)
-document.getElementById("cajatexto2").addEventListener("mouseover",function(){
-document.getElementById("cajatexto2").style.backgroundColor =" rgb(241, 96, 96)";   
-document.getElementById("cajatexto3").style.backgroundColor =" rgb(241, 96, 96)";   
+document.getElementById("cajatexto4").addEventListener("mouseover",function(){
+document.getElementById("cajatexto4").style.backgroundColor =" rgb(241, 96, 96)";   
 
-});*/
+
+});
 
 //*alerta boton enviar
 document.getElementById("alert").addEventListener("click",function(){
