@@ -80,6 +80,7 @@ header{
 }
 .cards__img{
     width: 250px;
+    
 }
 .habil{
     display: flex;
@@ -103,6 +104,7 @@ header{
 
 .habil__img{
     width: 250px;
+    margin-top: 15px;
 }
 .btn__habil{
     display: flex;
@@ -218,7 +220,7 @@ background-color: rgb(8, 26, 141);
     margin-top: 5px;
 }
 
-.buton-footer{
+.buton-footer a {
     padding: 10px 20px;
     background: aqua;
     border-radius: 40px;

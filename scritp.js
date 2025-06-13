@@ -39,11 +39,12 @@ document.getElementById("cambiar_tamaño").onclick = function(){
                 document.getElementById("cambiar_tamaño4").addEventListener("click",function(){
                     document.getElementById("demo4").style.fontSize="20px";       
                     });
+                    /*
 
                     document.getElementById("cambiar_tamaño5").addEventListener("click",function(){
                         document.getElementById("demo5").style.fontSize="20px";       
                         });
-
+*/
                         document.getElementById("cambiar_tamaño6").addEventListener("click",function(){
                             document.getElementById("demo6").style.fontSize="20px";       
                             });
@@ -51,11 +52,11 @@ document.getElementById("cambiar_tamaño").onclick = function(){
                             document.getElementById("cambiar_tamaño7").addEventListener("click",function(){
                                 document.getElementById("demo7").style.fontSize="20px";       
                                 });
-
+/*
                                 document.getElementById("cambiar_tamaño8").addEventListener("click",function(){
                                     document.getElementById("demo8").style.fontSize="20px";       
                                     });
-
+*/
                                     document.getElementById("cambiar_tamaño9").addEventListener("click",function(){
                                         document.getElementById("demo9").style.fontSize="20px";       
                                         });
@@ -78,11 +79,11 @@ document.getElementById("c-t-").addEventListener("click",function(){
         document.getElementById("volver_tamaño4").addEventListener("click",function(){
          document.getElementById("demo4").style.fontSize="15px";       
          });
-
+/*
          document.getElementById("volver_tamaño5").addEventListener("click",function(){
             document.getElementById("demo5").style.fontSize="15px";       
             });
-
+*/
             document.getElementById("volver_tamaño6").addEventListener("click",function(){
                 document.getElementById("demo6").style.fontSize="15px";       
                 });
@@ -90,11 +91,11 @@ document.getElementById("c-t-").addEventListener("click",function(){
                 document.getElementById("volver_tamaño7").addEventListener("click",function(){
                     document.getElementById("demo7").style.fontSize="15px";       
                     });
-
+/*
                     document.getElementById("volver_tamaño8").addEventListener("click",function(){
                         document.getElementById("demo8").style.fontSize="15px";       
                         });
-
+*/
                         document.getElementById("volver_tamaño9").addEventListener("click",function(){
                             document.getElementById("demo9").style.fontSize="15px";       
                             });
