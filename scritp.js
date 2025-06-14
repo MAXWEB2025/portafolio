@@ -120,22 +120,37 @@ document.getElementById("cajatexto").addEventListener("mouseover",function(){
     document.getElementById("cajatexto").style.backgroundColor ="  rgb(138, 246, 105)";
 } );
 
-    document.getElementById("cajatexto1").addEventListener("mouseover",function(){ 
-    document.getElementById("cajatexto1").style.backgroundColor ="  rgb(138, 246, 105)"; 
-} ); 
-
 document.getElementById("cajatexto2").addEventListener("mouseover",function(){ 
     document.getElementById("cajatexto2").style.backgroundColor ="  rgb(138, 246, 105)"; 
 } ); 
+
 document.getElementById("cajatexto3").addEventListener("mouseover",function(){ 
     document.getElementById("cajatexto3").style.backgroundColor ="  rgb(138, 246, 105)"; 
+} ); 
+document.getElementById("cajatexto5").addEventListener("mouseover",function(){ 
+    document.getElementById("cajatexto5").style.backgroundColor ="  rgb(138, 246, 105)"; 
 } );
+document.getElementById("cajatexto6").addEventListener("mouseover",function(){ 
+    document.getElementById("cajatexto6").style.backgroundColor ="  rgb(138, 246, 105)"; 
+} ); 
+document.getElementById("cajatexto7").addEventListener("mouseover",function(){ 
+    document.getElementById("cajatexto7").style.backgroundColor ="  rgb(138, 246, 105)"; 
+} ); 
 //*cambiar color rojo (evento mouseover)
 document.getElementById("cajatexto4").addEventListener("mouseover",function(){
 document.getElementById("cajatexto4").style.backgroundColor =" rgb(241, 96, 96)";   
 
 
 });
+
+document.getElementById("cajatexto1").addEventListener("mouseover",function(){ 
+    document.getElementById("cajatexto1").style.backgroundColor ="  rgb(241, 96, 96)"; 
+} );
+
+document.getElementById("cajatexto8").addEventListener("mouseover",function(){ 
+    document.getElementById("cajatexto8").style.backgroundColor ="  rgb(241, 96, 96)"; 
+} ); 
+
 
 //*alerta boton enviar
 document.getElementById("alert").addEventListener("click",function(){
